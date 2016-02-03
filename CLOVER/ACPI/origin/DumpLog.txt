@@ -1,0 +1,152 @@
+5:855  3:624  Found BIOS RSDP at F0120
+5:855  0:000  Printing ACPI tables from RSDP F0120 ...
+5:855  0:000   F0120: 'RSD PTR ', Rev: 2 (Acpi 2.0 or newer), Len: 36
+5:855  0:000    (Xsdt: ACFFE1C0, Rsdt: ACFFE0FC)
+5:855  0:000    ACFFE1C0: 'XSDT', 'LGPC    ', Rev: 1, Len: 212
+5:855  0:000    ACFFE0FC: 'RSDT', 'LGPC    ', Rev: 1, Len: 124
+5:855  0:000    Tables in Xsdt: 22
+5:855  0:000    0. ACFF1000: 'FACP', 'LGPC    ', Rev: 5, Len: 268
+5:855  0:000        (Dsdt: ACFD2000, Facs: ACF19000, XDsdt: ACFD2000, XFacs: 0)
+5:855  0:000        ACFD2000: 'DSDT', 'BDW     ', Rev: 2, Len: 105384
+5:857  0:002        ACF19000: 'FACS', Ver: 2, Len: 64
+5:857  0:000    1. ACFF8000: 'SSDT', 'DptfTabl', Rev: 2, Len: 24516
+5:857  0:000    2. ACFF4000: 'SSDT', 'FwiTable', Rev: 1, Len: 13703
+5:857  0:000    3. ACFF3000: 'ASF!', 'LGPC    ', Rev: 32, Len: 165
+5:857  0:000    4. ACFF0000: 'HPET', 'LGPC    ', Rev: 1, Len: 56
+5:857  0:000    5. ACFEF000: 'LPIT', 'LGPC    ', Rev: 1, Len: 148
+5:857  0:000    6. ACFEE000: 'APIC', 'LGPC    ', Rev: 1, Len: 152
+5:857  0:000    7. ACFED000: 'MCFG', 'LGPC    ', Rev: 1, Len: 60
+5:857  0:000    8. ACFEC000: 'WDAT', 'LGPC    ', Rev: 1, Len: 260
+5:857  0:000    9. ACFD1000: 'SSDT', 'PtidDevc', Rev: 2, Len: 36
+5:857  0:000    10. ACFD0000: 'SSDT', 'Ther_Rvp', Rev: 2, Len: 541
+5:857  0:000    11. ACFCF000: 'SSDT', 'Cpu0Ist', Rev: 2, Len: 1238
+5:857  0:000    12. ACFCE000: 'SSDT', 'CpuSsdt', Rev: 2, Len: 2932
+5:857  0:000    13. ACFC8000: 'SSDT', 'SaSsdt ', Rev: 2, Len: 23826
+5:858  0:000    14. ACFC7000: 'UEFI', 'LGPC    ', Rev: 1, Len: 66
+5:858  0:000    15. ACEF5000: 'POAT', 'LGPC    ', Rev: 3, Len: 85
+5:858  0:000    16. ACFC6000: 'BATB', 'LGPC    ', Rev: 1, Len: 70
+5:858  0:000    17. ACFC5000: 'FPDT', 'LGPC    ', Rev: 1, Len: 100
+5:858  0:000    18. ACFC4000: 'SLIC', 'LGPC    ', Rev: 1, Len: 374
+5:858  0:000    19. ACFC3000: 'UEFI', 'LGPC    ', Rev: 1, Len: 698
+5:858  0:000    20. ACFC2000: 'BGRT', 'LGPC    ', Rev: 1, Len: 56
+5:858  0:000    21. ACFC1000: 'DMAR', 'LGPC    ', Rev: 1, Len: 204
+5:858  0:000    Tables in Rsdt: 22
+5:858  0:000    0. ACFF1000: 'FACP', 'LGPC    ', Rev: 5, Len: 268
+5:858  0:000        (Dsdt: ACFD2000, Facs: ACF19000, XDsdt: ACFD2000, XFacs: 0)
+5:858  0:000        ACFD2000: 'DSDT', 'BDW     ', Rev: 2, Len: 105384
+5:860  0:002        ACF19000: 'FACS', Ver: 2, Len: 64
+5:860  0:000    1. ACFF8000: 'SSDT', 'DptfTabl', Rev: 2, Len: 24516
+5:860  0:000    2. ACFF4000: 'SSDT', 'FwiTable', Rev: 1, Len: 13703
+5:860  0:000    3. ACFF3000: 'ASF!', 'LGPC    ', Rev: 32, Len: 165
+5:860  0:000    4. ACFF0000: 'HPET', 'LGPC    ', Rev: 1, Len: 56
+5:860  0:000    5. ACFEF000: 'LPIT', 'LGPC    ', Rev: 1, Len: 148
+5:860  0:000    6. ACFEE000: 'APIC', 'LGPC    ', Rev: 1, Len: 152
+5:860  0:000    7. ACFED000: 'MCFG', 'LGPC    ', Rev: 1, Len: 60
+5:860  0:000    8. ACFEC000: 'WDAT', 'LGPC    ', Rev: 1, Len: 260
+5:860  0:000    9. ACFD1000: 'SSDT', 'PtidDevc', Rev: 2, Len: 36
+5:860  0:000    10. ACFD0000: 'SSDT', 'Ther_Rvp', Rev: 2, Len: 541
+5:860  0:000    11. ACFCF000: 'SSDT', 'Cpu0Ist', Rev: 2, Len: 1238
+5:860  0:000    12. ACFCE000: 'SSDT', 'CpuSsdt', Rev: 2, Len: 2932
+5:860  0:000    13. ACFC8000: 'SSDT', 'SaSsdt ', Rev: 2, Len: 23826
+5:860  0:000    14. ACFC7000: 'UEFI', 'LGPC    ', Rev: 1, Len: 66
+5:860  0:000    15. ACEF5000: 'POAT', 'LGPC    ', Rev: 3, Len: 85
+5:860  0:000    16. ACFC6000: 'BATB', 'LGPC    ', Rev: 1, Len: 70
+5:860  0:000    17. ACFC5000: 'FPDT', 'LGPC    ', Rev: 1, Len: 100
+5:860  0:000    18. ACFC4000: 'SLIC', 'LGPC    ', Rev: 1, Len: 374
+5:860  0:000    19. ACFC3000: 'UEFI', 'LGPC    ', Rev: 1, Len: 698
+5:860  0:000    20. ACFC2000: 'BGRT', 'LGPC    ', Rev: 1, Len: 56
+5:860  0:000    21. ACFC1000: 'DMAR', 'LGPC    ', Rev: 1, Len: 204
+5:860  0:000  Found UEFI Acpi 2.0 RSDP at ACFFE014
+5:860  0:000  Saving ACPI tables from RSDP ACFFE014 to EFI\CLOVER\ACPI\origin ...
+5:860  0:000   ACFFE014: 'RSD PTR ', Rev: 2 (Acpi 2.0 or newer), Len: 36 -> RSDP.aml
+5:868  0:007    (Xsdt: ACFFE1C0, Rsdt: ACFFE0FC)
+5:868  0:000    ACFFE1C0: 'XSDT', 'LGPC    ', Rev: 1, Len: 212 -> XSDT.aml
+5:871  0:002    ACFFE0FC: 'RSDT', 'LGPC    ', Rev: 1, Len: 124 -> RSDT.aml
+5:874  0:003    Tables in Xsdt: 22
+5:874  0:000    0. ACFF1000: 'FACP', 'LGPC    ', Rev: 5, Len: 268 -> FACP.aml
+5:877  0:002        (Dsdt: ACFD2000, Facs: ACF19000, XDsdt: ACFD2000, XFacs: 0)
+5:877  0:000        ACFD2000: 'DSDT', 'BDW     ', Rev: 2, Len: 105384 -> DSDT.aml
+5:890  0:013        ACF19000: 'FACS', Ver: 2, Len: 64 -> FACS.aml
+5:893  0:002    1. ACFF8000: 'SSDT', 'DptfTabl', Rev: 2, Len: 24516 -> SSDT-0.aml
+5:899  0:006    2. ACFF4000: 'SSDT', 'FwiTable', Rev: 1, Len: 13703 -> SSDT-1.aml
+5:904  0:004    3. ACFF3000: 'ASF!', 'LGPC    ', Rev: 32, Len: 165 -> ASF!.aml
+5:906  0:002    4. ACFF0000: 'HPET', 'LGPC    ', Rev: 1, Len: 56 -> HPET.aml
+5:909  0:002    5. ACFEF000: 'LPIT', 'LGPC    ', Rev: 1, Len: 148 -> LPIT.aml
+5:912  0:002    6. ACFEE000: 'APIC', 'LGPC    ', Rev: 1, Len: 152 -> APIC.aml
+5:915  0:002    7. ACFED000: 'MCFG', 'LGPC    ', Rev: 1, Len: 60 -> MCFG.aml
+5:918  0:002    8. ACFEC000: 'WDAT', 'LGPC    ', Rev: 1, Len: 260 -> WDAT.aml
+5:921  0:002    9. ACFD1000: 'SSDT', 'PtidDevc', Rev: 2, Len: 36 -> SSDT-2.aml
+5:925  0:004    10. ACFD0000: 'SSDT', 'Ther_Rvp', Rev: 2, Len: 541 -> SSDT-3.aml
+5:928  0:003    11. ACFCF000: 'SSDT', 'Cpu0Ist', Rev: 2, Len: 1238 -> SSDT-4.aml
+5:931  0:003    12. ACFCE000: 'SSDT', 'CpuSsdt', Rev: 2, Len: 2932
+ Found hidden SSDT 4 pcs
+5:931  0:000        * 9F39CA98: 'E', '', Rev: 0, Len: 1811965696  14 45 00 6E 00 67 00 6C 00 69 00 73 00 68 00 00       * ACDDC618: 'SSDT', 'ApIst', Rev: 2, Len: 1450  53 53 44 54 AA 05 00 00 02 D2 50 6D 52 65 66 00 Internal length = 1450 -> SSDT-6x.aml
+5:934  0:003        * ACDDB918: 'SSDT', 'Cpu0Cst', Rev: 2, Len: 986  53 53 44 54 DA 03 00 00 02 2D 50 6D 52 65 66 00 Internal length = 986 -> SSDT-7x.aml
+5:949  0:014        * ACDDAD98: 'SSDT', 'ApCst', Rev: 2, Len: 281  53 53 44 54 19 01 00 00 02 EE 50 6D 52 65 66 00 Internal length = 281 -> SSDT-8x.aml
+5:953  0:003   -> SSDT-5.aml
+5:956  0:003    13. ACFC8000: 'SSDT', 'SaSsdt ', Rev: 2, Len: 23826 -> SSDT-9.aml
+5:963  0:006    14. ACFC7000: 'UEFI', 'LGPC    ', Rev: 1, Len: 66 -> UEFI.aml
+5:970  0:007    15. ACEF5000: 'POAT', 'LGPC    ', Rev: 3, Len: 85 -> POAT.aml
+5:977  0:006    16. ACFC6000: 'BATB', 'LGPC    ', Rev: 1, Len: 70 -> BATB.aml
+5:984  0:007    17. ACFC5000: 'FPDT', 'LGPC    ', Rev: 1, Len: 100 -> FPDT.aml
+5:991  0:006    18. ACFC4000: 'SLIC', 'LGPC    ', Rev: 1, Len: 374 -> SLIC.aml
+5:999  0:007    19. ACFC3000: 'UEFI', 'LGPC    ', Rev: 1, Len: 698 -> UEFI.aml
+6:011  0:012    20. ACFC2000: 'BGRT', 'LGPC    ', Rev: 1, Len: 56 -> BGRT.aml
+6:021  0:010    21. ACFC1000: 'DMAR', 'LGPC    ', Rev: 1, Len: 204 -> DMAR.aml
+6:029  0:008    Tables in Rsdt: 22
+6:029  0:000    0. ACFF1000: 'FACP', 'LGPC    ', Rev: 5, Len: 268
+6:029  0:000        (Dsdt: ACFD2000, Facs: ACF19000, XDsdt: ACFD2000, XFacs: 0)
+6:029  0:000        ACFD2000: 'DSDT', 'BDW     ', Rev: 2, Len: 105384
+6:031  0:002        ACF19000: 'FACS', Ver: 2, Len: 64
+6:031  0:000    1. ACFF8000: 'SSDT', 'DptfTabl', Rev: 2, Len: 24516
+6:031  0:000    2. ACFF4000: 'SSDT', 'FwiTable', Rev: 1, Len: 13703
+6:031  0:000    3. ACFF3000: 'ASF!', 'LGPC    ', Rev: 32, Len: 165
+6:031  0:000    4. ACFF0000: 'HPET', 'LGPC    ', Rev: 1, Len: 56
+6:031  0:000    5. ACFEF000: 'LPIT', 'LGPC    ', Rev: 1, Len: 148
+6:031  0:000    6. ACFEE000: 'APIC', 'LGPC    ', Rev: 1, Len: 152
+6:031  0:000    7. ACFED000: 'MCFG', 'LGPC    ', Rev: 1, Len: 60
+6:031  0:000    8. ACFEC000: 'WDAT', 'LGPC    ', Rev: 1, Len: 260
+6:031  0:000    9. ACFD1000: 'SSDT', 'PtidDevc', Rev: 2, Len: 36
+6:031  0:000    10. ACFD0000: 'SSDT', 'Ther_Rvp', Rev: 2, Len: 541
+6:031  0:000    11. ACFCF000: 'SSDT', 'Cpu0Ist', Rev: 2, Len: 1238
+6:031  0:000    12. ACFCE000: 'SSDT', 'CpuSsdt', Rev: 2, Len: 2932
+6:031  0:000    13. ACFC8000: 'SSDT', 'SaSsdt ', Rev: 2, Len: 23826
+6:031  0:000    14. ACFC7000: 'UEFI', 'LGPC    ', Rev: 1, Len: 66
+6:031  0:000    15. ACEF5000: 'POAT', 'LGPC    ', Rev: 3, Len: 85
+6:031  0:000    16. ACFC6000: 'BATB', 'LGPC    ', Rev: 1, Len: 70
+6:031  0:000    17. ACFC5000: 'FPDT', 'LGPC    ', Rev: 1, Len: 100
+6:031  0:000    18. ACFC4000: 'SLIC', 'LGPC    ', Rev: 1, Len: 374
+6:031  0:000    19. ACFC3000: 'UEFI', 'LGPC    ', Rev: 1, Len: 698
+6:031  0:000    20. ACFC2000: 'BGRT', 'LGPC    ', Rev: 1, Len: 56
+6:031  0:000    21. ACFC1000: 'DMAR', 'LGPC    ', Rev: 1, Len: 204
+6:031  0:000  Found UEFI Acpi 1.0 RSDP at ACFFE000
+6:031  0:000  Printing ACPI tables from RSDP ACFFE000 ...
+6:031  0:000   ACFFE000: 'RSD PTR ', Rev: 0 (Acpi 1.0), Len: 20
+6:031  0:000    (Rsdt: ACFFE038)
+6:031  0:000    ACFFE038: 'RSDT', 'LGPC    ', Rev: 1, Len: 124
+6:031  0:000    Tables in Rsdt: 22
+6:031  0:000    0. ACFF2000: 'FACP', 'LGPC    ', Rev: 1, Len: 116
+6:031  0:000        (Dsdt: ACFD2000, Facs: ACF19000)
+6:031  0:000        ACFD2000: 'DSDT', 'BDW     ', Rev: 2, Len: 105384
+6:034  0:002        ACF19000: 'FACS', Ver: 2, Len: 64
+6:034  0:000    1. ACFF8000: 'SSDT', 'DptfTabl', Rev: 2, Len: 24516
+6:034  0:000    2. ACFF4000: 'SSDT', 'FwiTable', Rev: 1, Len: 13703
+6:034  0:000    3. ACFF3000: 'ASF!', 'LGPC    ', Rev: 32, Len: 165
+6:034  0:000    4. ACFF0000: 'HPET', 'LGPC    ', Rev: 1, Len: 56
+6:034  0:000    5. ACFEF000: 'LPIT', 'LGPC    ', Rev: 1, Len: 148
+6:034  0:000    6. ACFEE000: 'APIC', 'LGPC    ', Rev: 1, Len: 152
+6:034  0:000    7. ACFED000: 'MCFG', 'LGPC    ', Rev: 1, Len: 60
+6:034  0:000    8. ACFEC000: 'WDAT', 'LGPC    ', Rev: 1, Len: 260
+6:034  0:000    9. ACFD1000: 'SSDT', 'PtidDevc', Rev: 2, Len: 36
+6:034  0:000    10. ACFD0000: 'SSDT', 'Ther_Rvp', Rev: 2, Len: 541
+6:034  0:000    11. ACFCF000: 'SSDT', 'Cpu0Ist', Rev: 2, Len: 1238
+6:034  0:000    12. ACFCE000: 'SSDT', 'CpuSsdt', Rev: 2, Len: 2932
+6:034  0:000    13. ACFC8000: 'SSDT', 'SaSsdt ', Rev: 2, Len: 23826
+6:034  0:000    14. ACFC7000: 'UEFI', 'LGPC    ', Rev: 1, Len: 66
+6:034  0:000    15. ACEF5000: 'POAT', 'LGPC    ', Rev: 3, Len: 85
+6:034  0:000    16. ACFC6000: 'BATB', 'LGPC    ', Rev: 1, Len: 70
+6:034  0:000    17. ACFC5000: 'FPDT', 'LGPC    ', Rev: 1, Len: 100
+6:034  0:000    18. ACFC4000: 'SLIC', 'LGPC    ', Rev: 1, Len: 374
+6:034  0:000    19. ACFC3000: 'UEFI', 'LGPC    ', Rev: 1, Len: 698
+6:034  0:000    20. ACFC2000: 'BGRT', 'LGPC    ', Rev: 1, Len: 56
+6:034  0:000    21. ACFC1000: 'DMAR', 'LGPC    ', Rev: 1, Len: 204
