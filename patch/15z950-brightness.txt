@@ -1,0 +1,27 @@
+into all code_regex \GFX0 replaceall_matched begin IGPU end;
+into all code_regex //\sExternal\(\^\^_DOS replaceall_matched begin External(^^_DOS end;
+
+into method label _Q40 replace_content
+begin
+Store(LBRI, Local0)\n
+Store(PRM0, Local1)\n
+Store(PRM1, Local2)\n                                
+If(LEqual(Local0,Local1))\n
+{\n
+   If(LNotEqual(Local2,0x20)){\n
+       Store(0x10,Local2)\n
+   }\n
+}\n
+Else\n
+{\n
+   If(LGreater(Local0,Local1)){\n                    
+       Store(0x10,Local2)\n
+   }\n
+	Else{\n
+       Store(0x20,Local2)\n                
+   }\n
+}\n   
+Store(Local0,PRM0)\n
+Store(Local2,PRM1)\n
+Notify(\_SB.PCI0.LPCB.PS2K, Local2)\n   
+end;

@@ -1,0 +1,3 @@
+into method label GPPR remove_entry;
+into definitionblock code_regex External.*_SB_\.PCI0\.PEG0\.PEGP\.SGPO,.*MethodObj.* remove_matched;
+into_all all code_regex GPPR replaceall_matched begin //IGPU end;
