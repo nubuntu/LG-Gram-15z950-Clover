@@ -50,7 +50,7 @@
 		<key>Secure</key>
 		<false/>
 		<key>Timeout</key>
-		<integer>5</integer>
+		<integer>3</integer>
 		<key>XMPDetection</key>
 		<string>Yes</string>
 	</dict>
@@ -129,7 +129,7 @@
 		<key>NvidiaSingle</key>
 		<false/>
 		<key>ig-platform-id</key>
-		<string>0x16260006</string>
+		<string>0x162b0002</string>
 	</dict>
 	<key>KernelAndKextPatches</key>
 	<dict>
@@ -155,134 +155,6 @@
 		<array>
 			<dict>
 				<key>Comment</key>
-				<string>Disable minStolenSize less or equal fStolenMemorySize assertion, 10.10.x (based on Austere.J patch)</string>
-				<key>Disabled</key>
-				<false/>
-				<key>Find</key>
-				<data>
-				Oc92PA==
-				</data>
-				<key>Name</key>
-				<string>AppleIntelBDWGraphicsFramebuffer</string>
-				<key>Replace</key>
-				<data>
-				Oc/rPA==
-				</data>
-			</dict>
-			<dict>
-				<key>Comment</key>
-				<string>Disable minStolenSize less or equal fStolenMemorySize assertion, 10.11.beta ( (based on Austere.J patch)</string>
-				<key>Disabled</key>
-				<false/>
-				<key>Find</key>
-				<data>
-				QTnEdj4=
-				</data>
-				<key>Name</key>
-				<string>AppleIntelBDWGraphicsFramebuffer</string>
-				<key>Replace</key>
-				<data>
-				QTnE6z4=
-				</data>
-			</dict>
-			<dict>
-				<key>Comment</key>
-				<string>HDMI-audio, port 0105, 0x16060002 0x16060002 0x16160002 0x16260002 0x16220002 0x162b0002 0x162b0004 0x16260004 0x16220007 0x162b0008 0x16260008</string>
-				<key>Disabled</key>
-				<false/>
-				<key>Find</key>
-				<data>
-				AQUJAAAEAAAHBQAA
-				</data>
-				<key>Name</key>
-				<string>AppleIntelBDWGraphicsFramebuffer</string>
-				<key>Replace</key>
-				<data>
-				AQUJAAAIAACCAAAA
-				</data>
-			</dict>
-			<dict>
-				<key>Comment</key>
-				<string>Boot graphics glitch, 10.10.x/10.11.x (credit lisai9093, cecekpawon)</string>
-				<key>Disabled</key>
-				<false/>
-				<key>Find</key>
-				<data>
-				AQAAdRc=
-				</data>
-				<key>Name</key>
-				<string>IOGraphicsFamily</string>
-				<key>Replace</key>
-				<data>
-				AQAA6xc=
-				</data>
-			</dict>
-			<dict>
-				<key>Comment</key>
-				<string>HDMI-audio, port 0306, 0x16220007</string>
-				<key>Disabled</key>
-				<false/>
-				<key>Find</key>
-				<data>
-				AwYIAAAEAAARAAAA
-				</data>
-				<key>Name</key>
-				<string>AppleIntelBDWGraphicsFramebuffer</string>
-				<key>Replace</key>
-				<data>
-				AwYIAAAIAACCAAAA
-				</data>
-			</dict>
-			<dict>
-				<key>Comment</key>
-				<string>HDMI-audio, port 0204, 0x16120003 0x16120005 0x16120006</string>
-				<key>Disabled</key>
-				<false/>
-				<key>Find</key>
-				<data>
-				AgQLAAAEAAAHBQAA
-				</data>
-				<key>Name</key>
-				<string>AppleIntelBDWGraphicsFramebuffer</string>
-				<key>Replace</key>
-				<data>
-				AgQLAAAIAACCAAAA
-				</data>
-			</dict>
-			<dict>
-				<key>Comment</key>
-				<string>HDMI-audio, port 0105, 0x16120003 0x16120005 0x16120006</string>
-				<key>Disabled</key>
-				<false/>
-				<key>Find</key>
-				<data>
-				AQULAAAEAAAHBQAA
-				</data>
-				<key>Name</key>
-				<string>AppleIntelBDWGraphicsFramebuffer</string>
-				<key>Replace</key>
-				<data>
-				AQULAAAIAACCAAAA
-				</data>
-			</dict>
-			<dict>
-				<key>Comment</key>
-				<string>HDMI-audio, port 0204, 0x16060000 0x160e0000 0x16160000 0x161e0000 0x16260000 0x162b0000 0x16220000</string>
-				<key>Disabled</key>
-				<false/>
-				<key>Find</key>
-				<data>
-				AgQJAAAIAACCAAAA
-				</data>
-				<key>Name</key>
-				<string>AppleIntelBDWGraphicsFramebuffer</string>
-				<key>Replace</key>
-				<data>
-				AgQJAAAIAACCAAAA
-				</data>
-			</dict>
-			<dict>
-				<key>Comment</key>
 				<string>HDMI-audio, port 0204, 0x16060002 0x16060002 0x16160002 0x16260002 0x16220002 0x162b0002 0x162b0004 0x16260004 0x16220007 0x162b0008 0x16260008</string>
 				<key>Disabled</key>
 				<false/>
@@ -299,18 +171,34 @@
 			</dict>
 			<dict>
 				<key>Comment</key>
-				<string>HDMI-audio, port 0105, 0x16060000 0x160e0000 0x16160000 0x161e0000 0x16260000 0x162b0000 0x16220000</string>
+				<string>Conexant CX20590 Binary Patch</string>
 				<key>Disabled</key>
 				<false/>
 				<key>Find</key>
 				<data>
-				AQUJAAQAAAAEAAAA
+				hBnUEQ==
+				</data>
+				<key>Name</key>
+				<string>AppleHDA</string>
+				<key>Replace</key>
+				<data>
+				blDxFA==
+				</data>
+			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>Disable minStolenSize less or equal fStolenMemorySize assertion, 10.10.x (based on Austere.J patch)</string>
+				<key>Disabled</key>
+				<false/>
+				<key>Find</key>
+				<data>
+				Oc92PA==
 				</data>
 				<key>Name</key>
 				<string>AppleIntelBDWGraphicsFramebuffer</string>
 				<key>Replace</key>
 				<data>
-				AQUJAAAIAACCAAAA
+				Oc/rPA==
 				</data>
 			</dict>
 			<dict>
@@ -331,6 +219,150 @@
 			</dict>
 			<dict>
 				<key>Comment</key>
+				<string>Conexant CX20590 Zero 3</string>
+				<key>Disabled</key>
+				<false/>
+				<key>Find</key>
+				<data>
+				hQjsEA==
+				</data>
+				<key>Name</key>
+				<string>AppleHDA</string>
+				<key>Replace</key>
+				<data>
+				AAAAAA==
+				</data>
+			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>Conexant CX20590 Zero 1</string>
+				<key>Disabled</key>
+				<false/>
+				<key>Find</key>
+				<data>
+				hAjsEA==
+				</data>
+				<key>Name</key>
+				<string>AppleHDA</string>
+				<key>Replace</key>
+				<data>
+				AAAAAA==
+				</data>
+			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>Conexant CX20590 Zero 2</string>
+				<key>Disabled</key>
+				<false/>
+				<key>Find</key>
+				<data>
+				hBnUEQ==
+				</data>
+				<key>Name</key>
+				<string>AppleHDA</string>
+				<key>Replace</key>
+				<data>
+				AAAAAA==
+				</data>
+			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>HDMI-audio, port 0204, 0x16120003 0x16120005 0x16120006</string>
+				<key>Disabled</key>
+				<false/>
+				<key>Find</key>
+				<data>
+				AgQLAAAEAAAHBQAA
+				</data>
+				<key>Name</key>
+				<string>AppleIntelBDWGraphicsFramebuffer</string>
+				<key>Replace</key>
+				<data>
+				AgQLAAAIAACCAAAA
+				</data>
+			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>HDMI-audio, port 0204, 0x16060000 0x160e0000 0x16160000 0x161e0000 0x16260000 0x162b0000 0x16220000</string>
+				<key>Disabled</key>
+				<false/>
+				<key>Find</key>
+				<data>
+				AgQJAAAIAACCAAAA
+				</data>
+				<key>Name</key>
+				<string>AppleIntelBDWGraphicsFramebuffer</string>
+				<key>Replace</key>
+				<data>
+				AgQJAAAIAACCAAAA
+				</data>
+			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>HDMI-audio, port 0105, 0x16060002 0x16060002 0x16160002 0x16260002 0x16220002 0x162b0002 0x162b0004 0x16260004 0x16220007 0x162b0008 0x16260008</string>
+				<key>Disabled</key>
+				<false/>
+				<key>Find</key>
+				<data>
+				AQUJAAAEAAAHBQAA
+				</data>
+				<key>Name</key>
+				<string>AppleIntelBDWGraphicsFramebuffer</string>
+				<key>Replace</key>
+				<data>
+				AQUJAAAIAACCAAAA
+				</data>
+			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>Disable minStolenSize less or equal fStolenMemorySize assertion, 10.11.beta ( (based on Austere.J patch)</string>
+				<key>Disabled</key>
+				<false/>
+				<key>Find</key>
+				<data>
+				QTnEdj4=
+				</data>
+				<key>Name</key>
+				<string>AppleIntelBDWGraphicsFramebuffer</string>
+				<key>Replace</key>
+				<data>
+				QTnE6z4=
+				</data>
+			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>HDMI-audio, port 0306, 0x16220007</string>
+				<key>Disabled</key>
+				<false/>
+				<key>Find</key>
+				<data>
+				AwYIAAAEAAARAAAA
+				</data>
+				<key>Name</key>
+				<string>AppleIntelBDWGraphicsFramebuffer</string>
+				<key>Replace</key>
+				<data>
+				AwYIAAAIAACCAAAA
+				</data>
+			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>Boot graphics glitch, 10.10.x/10.11.x (credit lisai9093, cecekpawon)</string>
+				<key>Disabled</key>
+				<false/>
+				<key>Find</key>
+				<data>
+				AQAAdRc=
+				</data>
+				<key>Name</key>
+				<string>IOGraphicsFamily</string>
+				<key>Replace</key>
+				<data>
+				AQAA6xc=
+				</data>
+			</dict>
+			<dict>
+				<key>Comment</key>
 				<string>Enable TRIM for SSD</string>
 				<key>Disabled</key>
 				<false/>
@@ -345,6 +377,38 @@
 				AAAAAAAAAAAAAAA=
 				</data>
 			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>HDMI-audio, port 0105, 0x16060000 0x160e0000 0x16160000 0x161e0000 0x16260000 0x162b0000 0x16220000</string>
+				<key>Disabled</key>
+				<false/>
+				<key>Find</key>
+				<data>
+				AQUJAAQAAAAEAAAA
+				</data>
+				<key>Name</key>
+				<string>AppleIntelBDWGraphicsFramebuffer</string>
+				<key>Replace</key>
+				<data>
+				AQUJAAAIAACCAAAA
+				</data>
+			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>HDMI-audio, port 0105, 0x16120003 0x16120005 0x16120006</string>
+				<key>Disabled</key>
+				<false/>
+				<key>Find</key>
+				<data>
+				AQULAAAEAAAHBQAA
+				</data>
+				<key>Name</key>
+				<string>AppleIntelBDWGraphicsFramebuffer</string>
+				<key>Replace</key>
+				<data>
+				AQULAAAIAACCAAAA
+				</data>
+			</dict>
 		</array>
 	</dict>
 	<key>RtVariables</key>
@@ -353,17 +417,19 @@
 		<string>0x28</string>
 		<key>CsrActiveConfig</key>
 		<string>0x67</string>
+		<key>MLB</key>
+		<string>11111111111111111</string>
 	</dict>
 	<key>SMBIOS</key>
 	<dict>
 		<key>BiosReleaseDate</key>
-		<string>10/18/13</string>
+		<string>03/24/2015</string>
 		<key>BiosVendor</key>
 		<string>Apple Inc.</string>
 		<key>BiosVersion</key>
-		<string>MBP112.88Z.0138.B02.1310181745</string>
+		<string>MBP121.88Z.0167.B02.1503241251</string>
 		<key>Board-ID</key>
-		<string>Mac-3CBD00234E554E41</string>
+		<string>Mac-E43C1C25D4880AD6</string>
 		<key>BoardManufacturer</key>
 		<string>Apple Inc.</string>
 		<key>BoardType</key>
@@ -381,11 +447,11 @@
 		<key>Mobile</key>
 		<true/>
 		<key>ProductName</key>
-		<string>MacBookPro11,2</string>
+		<string>MacBookPro12,1</string>
 		<key>SerialNumber</key>
-		<string>C02LV67QFD56</string>
+		<string>C02PTZARG8WP</string>
 		<key>Trust</key>
-		<false/>
+		<true/>
 		<key>Version</key>
 		<string>1.0</string>
 	</dict>
